@@ -1,0 +1,15 @@
+.leadform-field {
+    color: #788193;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:"Montserrat", sans-serif;
+    line-height: 1.33;
+    background-color: #fafafa;
+    box-shadow: 0 4px 21px #bdbdbd;
+    border-radius: 7px;
+}

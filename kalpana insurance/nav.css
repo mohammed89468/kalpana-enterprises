@@ -1,0 +1,68 @@
+
+body{
+  background-color:skyblue !important ;
+}
+.navcontact{
+    width:fit-content;
+    color: white;
+ margin-bottom: 0rem;
+}
+.logo-img{
+    width: 80px;
+}
+.log-reg{
+    font-size: 14px;
+    font-family:"Montserrat", sans-serif;;
+    font-weight:300px;
+    height:40px;
+}
+.nav-ul a{
+margin-left: 4px;
+margin-right: 4px;
+font-size: 15px;
+font-family:"Montserrat", sans-serif;;
+color: black;
+ font-weight: bold;
+}
+.navbarback{
+    box-shadow: 1px 1px 2px gray;
+}
+.btnlogin{
+    background-color: rgb(34, 38, 163);
+    width: 100px;
+    font-size: 18px;
+    font-family:"Montserrat", sans-serif;;
+    height: 50px;
+}
+.ic{
+    font-size: x-large;
+    color: rgb(19, 18, 17);
+    padding: 9px 9px ;
+}
+.nav-ul {
+    display: flex;
+  }
+  
+  .nav-ul .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-ul .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff; /* Change this to your desired underline color */
+    transition: all 0.3s ease;
+  }
+  
+  .nav-ul .nav-link:hover::after {
+    width: 100%;
+  }
+  
+
+

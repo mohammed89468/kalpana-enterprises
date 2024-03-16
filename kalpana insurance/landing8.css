@@ -1,0 +1,23 @@
+.warning{
+    background-color: #f2555a;
+    border: none;
+    padding: 10px 21px;
+}
+.warning:hover{
+    background-color: #f2555a;
+}
+.txe{
+    color: white;
+    font-family:"Montserrat", sans-serif;
+}
+.txe1{
+    color: white;
+    font-size: x-large;
+    font-family:"Montserrat", sans-serif;
+}
+.icf{
+    font-size: x-large;
+    color: bisque;
+    padding: 9px 9px ;
+    font-family:"Montserrat", sans-serif;
+}

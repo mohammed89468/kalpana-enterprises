@@ -1,0 +1,35 @@
+.vizza-insurers {
+    width:100% ;
+    background-size: 100%;
+    display: table;
+    padding: 60px 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+.partner-logo>img {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    height: 104px;
+    padding: 22px;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+}
+img, png {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+

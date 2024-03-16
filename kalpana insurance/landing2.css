@@ -1,0 +1,33 @@
+.tile{
+    color: #000;
+    opacity: 0;
+    opacity: 1;
+    transition: all 1.5s cubic-bezier(.075,.82,.165,1);
+    margin-top: 28px;   
+    font-size: small;
+    font-family:"Montserrat", sans-serif;;
+
+}
+.tile:hover{
+    transform: scale(1.1);
+}
+.tile img {
+    max-width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    animation: MoveUpDown 7s linear infinite;
+    padding: 26px 26px 0;
+    opacity: .9;
+}
+.tile .info {
+
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85px;
+}
+.im{
+    width:100%;
+}
